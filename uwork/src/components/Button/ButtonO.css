@@ -1,0 +1,12 @@
+
+.o-btn{
+    width: 6rem;
+    height: 3rem;
+    margin: 0 1rem 0 1rem;
+    color: white;
+    background: black;
+    border-color: white;
+    border: 2px solid;
+    border-radius: 6px;
+    font-weight: 600;
+}

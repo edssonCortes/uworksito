@@ -1,0 +1,18 @@
+.o-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.o-btn-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5rem 0 1rem;
+}
+.o-img-container{
+    margin: 0 1rem 0 5rem;
+}
+.o-btn{
+    
+}
