@@ -11,7 +11,7 @@ function NavPrincipal() {
             </div>
             <div className="o-btn-container">
                 <ButtonO className="o-btn" btnText="LOG IN"></ButtonO>
-                <ButtonO className="o-btn" btnText="SING IN"></ButtonO>
+                <ButtonO className="o-btn"  color='#3366FF' bg='white' btnText="SING IN"></ButtonO>
             </div>
         </div>
     )

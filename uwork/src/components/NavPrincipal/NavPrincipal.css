@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    width: 100vw;
 }
 .o-btn-container{
     display: flex;
@@ -16,3 +17,14 @@
 .o-btn{
     
 }
+@media only screen and (max-width: 476px) {
+    .o-btn-container{
+        display: flex;
+        flex-direction: row;
+        margin: 0 1rem 0 1rem;
+    }
+    .o-img-container{
+        margin: 0 1rem 0 1rem;
+    }
+
+  }
