@@ -1,0 +1,128 @@
+
+  * {
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  }
+  
+  body, html {
+      height: 100%;
+      font-family: sans-serif;
+  }
+  /*//////////////////////////////////////////////////////////////////
+  [ Table ]*/
+  
+  .limiter {
+    width: 1366px;
+    margin: 0 auto;
+  }
+  
+  .container-table {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px;
+  }
+  
+  .wrap-table {
+    width: 1170px;
+  }
+  
+  /*//////////////////////////////////////////////////////////////////
+  [ Table ]*/
+  .table100 {
+    background-color: #fff;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  th, td {
+    font-weight: unset;
+    padding-right: 10px;
+  }
+  
+  .column1 {
+    width: 33%;
+    padding-left: 40px;
+  }
+  
+  .column2 {
+    width: 13%;
+  }
+  
+  .column3 {
+    width: 22%;
+  }
+  
+  .column4 {
+    width: 19%;
+  }
+  
+  .column5 {
+    width: 13%;
+  }
+  
+  .table100-head th {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  
+  .table100-body td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  /*==================================================================
+  [ Ver1 ]*/
+  
+  .table100.ver1 th {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+  
+    background-color: #6c7ae0;
+  }
+  
+  .table100.ver1 td {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.4;
+  }
+  
+  .table100.ver1 .table100-body tr:nth-child(even) {
+    background-color: #f8f6ff;
+  }
+  
+
+
+@media only screen and (max-width: 546px) {
+    .o-btn-container{
+        display: flex;
+        flex-direction: row;
+        margin: 0 1rem 0 1rem;
+    }
+    .o-img-container{
+        margin: 0 1rem 0 1rem;
+    }
+
+    .o-btnNav{
+
+       
+        font-size:8px;
+    
+    }
+
+  }

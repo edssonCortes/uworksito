@@ -1,0 +1,180 @@
+.o-allP{
+    height: 100rem;
+}
+.o-all-prof{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5rem;
+}
+.o-izq{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-left: 10rem;  
+
+}
+.o-hi{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background: #F5F5F7;
+    border-radius: 8px;
+    width: 75%;
+    height: 10%;
+    padding-left: 1rem;    
+    box-shadow: 3px 3px 20px rgb(218, 218, 218);
+}
+
+.o-longcard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    flex-wrap: nowrap;
+    background: #F5F5F7;
+    border-radius: 8px;
+    width: 75%;
+    height: 10%;
+    padding-right: 2%;
+    box-shadow: 3px 3px 20px rgb(218, 218, 218);
+}
+.o-img{
+    border-radius: 16px;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    width: 15%;
+    height: auto;
+    
+}
+.o-imgHI{
+    border-radius: 16px;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    width: 25%;
+    height: auto;
+
+    margin-bottom: 10v;
+    margin-top: -5vh;
+    
+}
+.o-incard{
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+.o-textCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text1{
+    margin: 0 3rem 0 0;
+}
+
+.text2{
+    margin: 0 3rem 0 0;
+    color: gray;
+}
+
+.o-h3{
+font-size: 1.5vw;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.o-p{
+    font-size: 0.8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.o-h1{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.o-cardjob-cont{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    }
+
+.o-der{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cardCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height:20%;
+    margin-right: 5rem;
+    
+}
+.cardsita{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    width: 33%;
+    height: 48%;
+    background: #F5F5F7;
+    border-radius: 8px;
+    box-shadow: 3px 3px 20px rgb(218, 218, 218);
+    
+}
+.subcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10%;
+
+
+}
+.o-imgder{
+    width: 50%;
+    height: auto;
+
+}
+
+.o-fcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    height: 20%; 
+    background: #F5F5F7;
+    border-radius: 8px;
+    box-shadow: 3px 3px 20px rgb(218, 218, 218);
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+   
+}
+.o-pf{
+
+    font-size: 1vw;
+    text-align: justify;
+    
+}
+.o-h3f{
+    font-size: 2vw; 
+}
+

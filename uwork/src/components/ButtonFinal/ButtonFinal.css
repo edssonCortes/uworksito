@@ -1,0 +1,32 @@
+.o-btnF{
+    width: 8rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #28293D;
+    border-radius: 8px;
+    border: none;
+    
+
+}
+
+.o-btnF:hover{
+    width: 8rem;
+    height: 2.5rem;
+    color: #28293D;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #28293D ;
+    box-shadow: 1px 1px 4px rgb(211, 211, 211);
+
+}
+
+
+.o-btnF:active{
+    width: 8rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #686985;
+    border-radius: 8px;
+    border:none;
+
+}

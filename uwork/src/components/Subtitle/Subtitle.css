@@ -1,0 +1,30 @@
+.o-subt{
+
+    color: #28293D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .o-subt{
+
+       
+        font-size: 2vw;
+    
+    }
+    
+}
+
+@media only screen and (max-width: 360px) {
+
+    .o-subt{
+
+       
+        font-size: 3vw;
+    
+    }
+
+
+}

@@ -1,0 +1,73 @@
+
+/*
+.o-card-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;  
+  flex-direction: row;
+  
+  
+
+}*/
+.o-card2{
+  margin: 3rem 3rem 3rem 3rem; 
+  width: 20vw;
+  height: 14vw;
+  display: flex;
+  align-items: flex-end;
+  background: url('C:\Users\Usuario\Desktop\Uwork\uwork\src\bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  border: 1px solid;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 10px rgb(146, 146, 146);
+
+
+}
+.o-card2 :hover{
+  opacity: 75%;
+  
+  color: darkseagreen;
+  
+
+}
+
+.o-titulo-card{
+  padding-left: 2rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+}
+
+@media only screen and (max-width: 811px) {
+  .o-card2{
+    margin: 2rem 2rem 2rem 2rem; 
+    width: 50vw;
+    height: 35vw;
+
+  }
+  .o-titulo-card{
+    padding-left: 2rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5vw;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 375px) {
+
+
+  .o-titulo-card{
+    padding-left: 2rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw;
+  }
+
+}

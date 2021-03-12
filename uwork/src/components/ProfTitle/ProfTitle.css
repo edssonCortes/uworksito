@@ -1,0 +1,24 @@
+.o-title-profile{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #28293D;
+    font-size: 4vw;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .o-title-profile{
+
+        font-size: 6vw;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+    .o-title-profile{
+
+        font-size: 8vw;
+    }
+
+}

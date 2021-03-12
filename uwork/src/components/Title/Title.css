@@ -1,13 +1,32 @@
 .o-U{
     color: rgb(0, 233, 241);
-    /*font-weight: 900;*/
+    font-size: 3vw;
+   
     
 }
 .o-Work{
     color: white;
+    font-size: 3vw;
+   
 }
 .o-title{
     display: flex;
     flex-direction: row;
     
+}
+
+@media only screen and (max-width: 546px) {
+    .o-U{
+    
+        font-size: 5vw;
+       
+        
+    }
+    .o-Work{
+     
+        font-size: 5vw;
+       
+    }
+
+
 }

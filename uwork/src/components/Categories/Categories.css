@@ -1,0 +1,37 @@
+
+.o-all-container{
+    background: #F2F2F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.o-cardCat-cont{
+    width: 100vw;  
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    flex-direction: row;
+
+}
+
+.o-textC{
+    color: #28293D;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+@media only screen and (max-width: 475px) {
+
+
+    .o-textC{
+        color: #28293D;
+        font-size: 3vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+  
+  }
+

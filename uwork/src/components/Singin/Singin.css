@@ -1,0 +1,67 @@
+.o-all-container{
+
+    height: 81vh;
+}
+
+.o-center-container{
+    background:#F2F2F5 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    height: 100%;
+
+}
+.o-input-container{
+
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.o-label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #555770;
+
+}
+.o-input{
+    height: 3vh;
+    background: #dfe0f5;
+    color: rgb(0, 0, 0);
+    opacity: 0.16;
+    border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .o-input-container{
+        width: 30vw;
+    }
+
+    .o-input{
+        height: 3vh;
+        width: 30vw;
+
+    }
+   
+}
+
+@media only screen and (max-width: 375px) {
+
+    .o-input-container{
+        width: 45vw;
+    }
+
+    .o-input{
+        height: 3vh;
+        width: 45vw;
+
+    }
+
+}

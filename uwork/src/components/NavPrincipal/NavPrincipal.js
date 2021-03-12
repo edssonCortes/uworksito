@@ -7,11 +7,11 @@ function NavPrincipal() {
     return (
         <div className="o-nav">
             <div className="o-img-container">
-                <Title></Title>
+                <Title title1="U" title2="Work"></Title>
             </div>
             <div className="o-btn-container">
-                <ButtonO className="o-btn" btnText="LOG IN"></ButtonO>
-                <ButtonO className="o-btn"  color='#3366FF' bg='white' btnText="SING IN"></ButtonO>
+                <ButtonO btnText="LOG IN"></ButtonO>
+                <ButtonO color='#3366FF' bg='white' btnText="SING IN"></ButtonO>
             </div>
         </div>
     )

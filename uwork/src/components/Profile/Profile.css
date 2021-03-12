@@ -1,0 +1,105 @@
+.o-all{
+    display: flex;
+    flex-direction: column;
+}
+.o-cont-prof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.o-left{
+    width: 50vw;
+    height:100vh;
+    background: url('C:\Users\Usuario\Desktop\Uwork\uwork\src\bgprof.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
+    box-shadow: 5px 5px 8px gray;
+   
+}
+.o-right{
+    width: 50vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:#F2F2F5;
+    
+}
+.card-cont{
+  width: 50vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.o-port{
+    width: 15vw;
+    height: 17vh;
+    color: black;
+  display: flex;
+  align-items: flex-end;
+  background: url('C:\Users\Usuario\Desktop\Uwork\uwork\src\figma.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  border: 1px solid;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 6px gray;
+  
+
+}
+.o-btntext{
+    color: white;
+    font-size: 1vw;
+}
+.text{
+    font-size: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #28293D;
+    
+}
+
+@media only screen and (max-width: 475px) {
+
+ 
+
+    .o-right{
+
+        justify-content: center;
+    }
+    .card-cont{
+       
+        flex-wrap: wrap;
+    }
+
+    .o-port{
+        margin-top: 1rem;
+        width: 30vw;
+        height: 12vh;
+    }
+    .text{
+        font-size: 3vw;        
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+        
+    }
+
+
+}
